@@ -87,10 +87,9 @@ footer h2 {
 }
 
 .heart:hover {
-    transition: 2s ease-in-out;
-    font-size: 50px;
-  }
-
+  transition: 2s ease-in-out;
+  font-size: 50px;
+}
 
 pre {
   display: flex;
@@ -102,13 +101,17 @@ pre {
   font-size: 9px;
   padding: 5px;
   align-items: center;
-  user-select: auto;
+}
+
+pre:active {
+  user-select: all;
 }
 
 pre:hover {
-    transition: 2s ease-in-out;
-    font-size: 8px;
-  }
+  transition: 2s ease-in-out;
+  font-size: 10x;
+  transform: scale(1.1);
+}
 
 p {
   text-align: center;
